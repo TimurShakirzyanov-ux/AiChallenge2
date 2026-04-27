@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Company Leader Board 2025</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <div class="top-bar">
+    <span class="logo">◆ Contoso</span>
+    <a href="#">Home</a>
+    <a href="#">EDU</a>
+    <a href="#">Teams</a>
+  </div>
+
+  <!-- Page Content -->
+  <div class="page-wrapper">
+    <div class="breadcrumb">
+      <a href="#">Home</a> / <a href="#">EDU</a> / Company Leader Board 2025
+    </div>
+    <h1 class="page-title">Company Leader Board 2025</h1>
+
+    <div class="content-card">
+      <div class="section-header">
+        <h2>Leaderboard</h2>
+        <p>Top performers based on contributions and activity</p>
+      </div>
+
+      <!-- Filter Bar -->
+      <div class="filter-bar">
+        <select id="filterYear">
+          <option value="">All Years</option>
+          <option value="2025">2025</option>
+        </select>
+        <select id="filterQuarter">
+          <option value="">All Quarters</option>
+          <option value="Q1">Q1</option>
+          <option value="Q2">Q2</option>
+          <option value="Q3">Q3</option>
+          <option value="Q4">Q4</option>
+        </select>
+        <select id="filterCategory">
+          <option value="">All Categories</option>
+          <option value="Education">Education</option>
+          <option value="Public Speaking">Public Speaking</option>
+          <option value="University Partners">University Partners</option>
+        </select>
+        <input type="text" id="filterSearch" placeholder="Search employee..." />
+      </div>
+
+      <!-- Podium -->
+      <div class="podium-section" id="podiumSection"></div>
+      <div class="podium-stands" id="podiumStands"></div>
+
+      <!-- Leaderboard List -->
+      <div class="leaderboard-list" id="leaderboardList"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
