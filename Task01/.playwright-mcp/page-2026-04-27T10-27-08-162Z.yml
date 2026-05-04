@@ -1,0 +1,611 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]: ◆ Contoso
+    - link "Home" [ref=e4] [cursor=pointer]:
+      - /url: "#"
+    - link "EDU" [ref=e5] [cursor=pointer]:
+      - /url: "#"
+    - link "Teams" [ref=e6] [cursor=pointer]:
+      - /url: "#"
+  - generic [ref=e7]:
+    - generic [ref=e8]:
+      - link "Home" [ref=e9] [cursor=pointer]:
+        - /url: "#"
+      - text: /
+      - link "EDU" [ref=e10] [cursor=pointer]:
+        - /url: "#"
+      - text: / Company Leader Board 2025
+    - heading "Company Leader Board 2025" [level=1] [ref=e11]
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - heading "Leaderboard" [level=2] [ref=e14]
+        - paragraph [ref=e15]: Top performers based on contributions and activity
+      - generic [ref=e16]:
+        - combobox [ref=e17]:
+          - option "All Years" [selected]
+          - option "2025"
+        - combobox [ref=e18]:
+          - option "All Quarters" [selected]
+          - option "Q1"
+          - option "Q2"
+          - option "Q3"
+          - option "Q4"
+        - combobox [ref=e19]:
+          - option "All Categories" [selected]
+          - option "Education"
+          - option "Public Speaking"
+          - option "University Partners"
+        - textbox "Search employee..." [ref=e20]
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - img "Sarah Chen" [ref=e24]
+            - generic [ref=e25]: "2"
+          - generic [ref=e26]: Sarah Chen
+          - generic [ref=e27]: QA Engineer (QA.U2.T1)
+          - generic [ref=e28]:
+            - generic [ref=e29]: ★
+            - text: "448"
+        - generic [ref=e30]:
+          - generic [ref=e31]:
+            - img "Alex Johnson" [ref=e32]
+            - generic [ref=e33]: "1"
+          - generic [ref=e34]: Alex Johnson
+          - generic [ref=e35]: Senior Software Engineer (ENG.U1.D1.G1)
+          - generic [ref=e36]:
+            - generic [ref=e37]: ★
+            - text: "496"
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - img "Marcus Rodriguez" [ref=e40]
+            - generic [ref=e41]: "3"
+          - generic [ref=e42]: Marcus Rodriguez
+          - generic [ref=e43]: Group Manager (ENG.U1.D2.G3)
+          - generic [ref=e44]:
+            - generic [ref=e45]: ★
+            - text: "416"
+      - generic [ref=e46]:
+        - generic [ref=e47]: "2"
+        - generic [ref=e48]: "1"
+        - generic [ref=e49]: "3"
+      - generic [ref=e50]:
+        - generic [ref=e52] [cursor=pointer]:
+          - generic [ref=e53]: "1"
+          - img "Alex Johnson" [ref=e54]
+          - generic [ref=e55]:
+            - generic [ref=e56]: Alex Johnson
+            - generic [ref=e57]: Senior Software Engineer (ENG.U1.D1.G1)
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - img [ref=e61]
+              - text: "6"
+            - generic [ref=e63]:
+              - img [ref=e65]
+              - text: "3"
+          - generic [ref=e67]: TOTAL
+          - generic [ref=e68]:
+            - generic [ref=e69]: ★
+            - text: "496"
+          - img [ref=e71]
+        - generic [ref=e74] [cursor=pointer]:
+          - generic [ref=e75]: "2"
+          - img "Sarah Chen" [ref=e76]
+          - generic [ref=e77]:
+            - generic [ref=e78]: Sarah Chen
+            - generic [ref=e79]: QA Engineer (QA.U2.T1)
+          - generic [ref=e80]:
+            - generic [ref=e81]:
+              - img [ref=e83]
+              - text: "6"
+            - generic [ref=e85]:
+              - img [ref=e87]
+              - text: "2"
+          - generic [ref=e89]: TOTAL
+          - generic [ref=e90]:
+            - generic [ref=e91]: ★
+            - text: "448"
+          - img [ref=e93]
+        - generic [ref=e96] [cursor=pointer]:
+          - generic [ref=e97]: "3"
+          - img "Marcus Rodriguez" [ref=e98]
+          - generic [ref=e99]:
+            - generic [ref=e100]: Marcus Rodriguez
+            - generic [ref=e101]: Group Manager (ENG.U1.D2.G3)
+          - generic [ref=e102]:
+            - generic [ref=e103]:
+              - img [ref=e105]
+              - text: "3"
+            - generic [ref=e107]:
+              - img [ref=e109]
+              - text: "4"
+          - generic [ref=e111]: TOTAL
+          - generic [ref=e112]:
+            - generic [ref=e113]: ★
+            - text: "416"
+          - img [ref=e115]
+        - generic [ref=e118] [cursor=pointer]:
+          - generic [ref=e119]: "4"
+          - img "Emily Watson" [ref=e120]
+          - generic [ref=e121]:
+            - generic [ref=e122]: Emily Watson
+            - generic [ref=e123]: Lead QA Engineer (QA.U2.T2)
+          - generic [ref=e124]:
+            - generic [ref=e125]:
+              - img [ref=e127]
+              - text: "5"
+            - generic [ref=e129]:
+              - img [ref=e131]
+              - text: "1"
+          - generic [ref=e133]: TOTAL
+          - generic [ref=e134]:
+            - generic [ref=e135]: ★
+            - text: "352"
+          - img [ref=e137]
+        - generic [ref=e140] [cursor=pointer]:
+          - generic [ref=e141]: "5"
+          - img "David Park" [ref=e142]
+          - generic [ref=e143]:
+            - generic [ref=e144]: David Park
+            - generic [ref=e145]: Software Engineer (DEV.U1.D4.NET)
+          - generic [ref=e146]:
+            - generic [ref=e147]:
+              - img [ref=e149]
+              - text: "4"
+            - generic [ref=e151]:
+              - img [ref=e153]
+              - text: "1"
+          - generic [ref=e155]: TOTAL
+          - generic [ref=e156]:
+            - generic [ref=e157]: ★
+            - text: "288"
+          - img [ref=e159]
+        - generic [ref=e162] [cursor=pointer]:
+          - generic [ref=e163]: "6"
+          - img "Natalie Brooks" [ref=e164]
+          - generic [ref=e165]:
+            - generic [ref=e166]: Natalie Brooks
+            - generic [ref=e167]: HR Manager (HR.D3.SO)
+          - generic [ref=e168]:
+            - generic [ref=e169]:
+              - img [ref=e171]
+              - text: "2"
+            - generic [ref=e173]:
+              - img [ref=e175]
+              - text: "2"
+          - generic [ref=e177]: TOTAL
+          - generic [ref=e178]:
+            - generic [ref=e179]: ★
+            - text: "256"
+          - img [ref=e181]
+        - generic [ref=e184] [cursor=pointer]:
+          - generic [ref=e185]: "7"
+          - img "Ryan Kowalski" [ref=e186]
+          - generic [ref=e187]:
+            - generic [ref=e188]: Ryan Kowalski
+            - generic [ref=e189]: DevOps Engineer (OPS.U3.D1.K8)
+          - generic [ref=e190]:
+            - generic [ref=e191]:
+              - img [ref=e193]
+              - text: "3"
+            - generic [ref=e195]:
+              - img [ref=e197]
+              - text: "1"
+          - generic [ref=e199]: TOTAL
+          - generic [ref=e200]:
+            - generic [ref=e201]: ★
+            - text: "224"
+          - img [ref=e203]
+        - generic [ref=e206] [cursor=pointer]:
+          - generic [ref=e207]: "8"
+          - img "Priya Sharma" [ref=e208]
+          - generic [ref=e209]:
+            - generic [ref=e210]: Priya Sharma
+            - generic [ref=e211]: Data Scientist (DS.U4.ML.G2)
+          - generic [ref=e212]:
+            - generic [ref=e213]:
+              - img [ref=e215]
+              - text: "2"
+            - generic [ref=e217]:
+              - img [ref=e219]
+              - text: "2"
+          - generic [ref=e221]: TOTAL
+          - generic [ref=e222]:
+            - generic [ref=e223]: ★
+            - text: "208"
+          - img [ref=e225]
+        - generic [ref=e228] [cursor=pointer]:
+          - generic [ref=e229]: "9"
+          - img "James O'Brien" [ref=e230]
+          - generic [ref=e231]:
+            - generic [ref=e232]: James O'Brien
+            - generic [ref=e233]: Frontend Developer (DEV.U1.D3.FE)
+          - generic [ref=e234]:
+            - generic [ref=e235]:
+              - img [ref=e237]
+              - text: "3"
+            - generic [ref=e239]:
+              - img [ref=e241]
+              - text: "1"
+          - generic [ref=e243]: TOTAL
+          - generic [ref=e244]:
+            - generic [ref=e245]: ★
+            - text: "192"
+          - img [ref=e247]
+        - generic [ref=e250] [cursor=pointer]:
+          - generic [ref=e251]: "10"
+          - img "Linda Nguyen" [ref=e252]
+          - generic [ref=e253]:
+            - generic [ref=e254]: Linda Nguyen
+            - generic [ref=e255]: Product Manager (PM.U5.D2.G1)
+          - generic [ref=e256]:
+            - generic [ref=e257]:
+              - img [ref=e259]
+              - text: "2"
+            - generic [ref=e261]:
+              - img [ref=e263]
+              - text: "1"
+          - generic [ref=e265]: TOTAL
+          - generic [ref=e266]:
+            - generic [ref=e267]: ★
+            - text: "160"
+          - img [ref=e269]
+        - generic [ref=e272] [cursor=pointer]:
+          - generic [ref=e273]: "11"
+          - img "Omar Hassan" [ref=e274]
+          - generic [ref=e275]:
+            - generic [ref=e276]: Omar Hassan
+            - generic [ref=e277]: Security Engineer (SEC.U6.D1.G1)
+          - generic [ref=e278]:
+            - generic [ref=e279]:
+              - img [ref=e281]
+              - text: "2"
+            - generic [ref=e283]:
+              - img [ref=e285]
+              - text: "1"
+          - generic [ref=e287]: TOTAL
+          - generic [ref=e288]:
+            - generic [ref=e289]: ★
+            - text: "160"
+          - img [ref=e291]
+        - generic [ref=e294] [cursor=pointer]:
+          - generic [ref=e295]: "12"
+          - img "Hannah Kim" [ref=e296]
+          - generic [ref=e297]:
+            - generic [ref=e298]: Hannah Kim
+            - generic [ref=e299]: UX Designer (UX.U7.D1.G2)
+          - generic [ref=e300]:
+            - generic [ref=e301]:
+              - img [ref=e303]
+              - text: "3"
+            - generic [ref=e305]:
+              - img [ref=e307]
+              - text: "1"
+          - generic [ref=e309]: TOTAL
+          - generic [ref=e310]:
+            - generic [ref=e311]: ★
+            - text: "144"
+          - img [ref=e313]
+        - generic [ref=e316] [cursor=pointer]:
+          - generic [ref=e317]: "13"
+          - img "Carlos Mendez" [ref=e318]
+          - generic [ref=e319]:
+            - generic [ref=e320]: Carlos Mendez
+            - generic [ref=e321]: Backend Developer (DEV.U1.D2.BE)
+          - generic [ref=e322]:
+            - generic [ref=e323]:
+              - img [ref=e325]
+              - text: "1"
+            - generic [ref=e327]:
+              - img [ref=e329]
+              - text: "2"
+          - generic [ref=e331]: TOTAL
+          - generic [ref=e332]:
+            - generic [ref=e333]: ★
+            - text: "128"
+          - img [ref=e335]
+        - generic [ref=e338] [cursor=pointer]:
+          - generic [ref=e339]: "14"
+          - img "Fiona McAllister" [ref=e340]
+          - generic [ref=e341]:
+            - generic [ref=e342]: Fiona McAllister
+            - generic [ref=e343]: Technical Writer (DOC.U8.D1.G1)
+          - generic [ref=e344]:
+            - generic [ref=e345]:
+              - img [ref=e347]
+              - text: "2"
+            - generic [ref=e349]:
+              - img [ref=e351]
+              - text: "1"
+          - generic [ref=e353]: TOTAL
+          - generic [ref=e354]:
+            - generic [ref=e355]: ★
+            - text: "112"
+          - img [ref=e357]
+        - generic [ref=e360] [cursor=pointer]:
+          - generic [ref=e361]: "15"
+          - img "Tomasz Nowak" [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e364]: Tomasz Nowak
+            - generic [ref=e365]: Cloud Architect (ARC.U9.D1.CL)
+          - generic [ref=e366]:
+            - generic [ref=e367]:
+              - img [ref=e369]
+              - text: "1"
+            - generic [ref=e371]:
+              - img [ref=e373]
+              - text: "2"
+          - generic [ref=e375]: TOTAL
+          - generic [ref=e376]:
+            - generic [ref=e377]: ★
+            - text: "96"
+          - img [ref=e379]
+        - generic [ref=e382] [cursor=pointer]:
+          - generic [ref=e383]: "16"
+          - img "Rachel Torres" [ref=e384]
+          - generic [ref=e385]:
+            - generic [ref=e386]: Rachel Torres
+            - generic [ref=e387]: Scrum Master (AGI.U10.D1.SM)
+          - generic [ref=e388]:
+            - generic [ref=e389]:
+              - img [ref=e391]
+              - text: "2"
+            - generic [ref=e393]:
+              - img [ref=e395]
+              - text: "1"
+          - generic [ref=e397]: TOTAL
+          - generic [ref=e398]:
+            - generic [ref=e399]: ★
+            - text: "80"
+          - img [ref=e401]
+        - generic [ref=e404] [cursor=pointer]:
+          - generic [ref=e405]: "17"
+          - img "Daniel Fischer" [ref=e406]
+          - generic [ref=e407]:
+            - generic [ref=e408]: Daniel Fischer
+            - generic [ref=e409]: Mobile Developer (DEV.U1.D5.MOB)
+          - generic [ref=e410]:
+            - generic [ref=e411]:
+              - img [ref=e413]
+              - text: "2"
+            - generic [ref=e415]:
+              - img [ref=e417]
+              - text: "1"
+          - generic [ref=e419]: TOTAL
+          - generic [ref=e420]:
+            - generic [ref=e421]: ★
+            - text: "80"
+          - img [ref=e423]
+        - generic [ref=e426] [cursor=pointer]:
+          - generic [ref=e427]: "18"
+          - img "Aisha Patel" [ref=e428]
+          - generic [ref=e429]:
+            - generic [ref=e430]: Aisha Patel
+            - generic [ref=e431]: Machine Learning Engineer (DS.U4.ML.G3)
+          - generic [ref=e432]:
+            - generic [ref=e433]:
+              - img [ref=e435]
+              - text: "2"
+            - generic [ref=e437]:
+              - img [ref=e439]
+              - text: "1"
+            - generic [ref=e441]:
+              - img [ref=e443]
+              - text: "1"
+          - generic [ref=e445]: TOTAL
+          - generic [ref=e446]:
+            - generic [ref=e447]: ★
+            - text: "72"
+          - img [ref=e449]
+        - generic [ref=e452] [cursor=pointer]:
+          - generic [ref=e453]: "19"
+          - img "Viktor Sokolov" [ref=e454]
+          - generic [ref=e455]:
+            - generic [ref=e456]: Viktor Sokolov
+            - generic [ref=e457]: Database Administrator (DBA.U11.D1.G1)
+          - generic [ref=e458]:
+            - generic [ref=e459]:
+              - img [ref=e461]
+              - text: "1"
+            - generic [ref=e463]:
+              - img [ref=e465]
+              - text: "1"
+            - generic [ref=e467]:
+              - img [ref=e469]
+              - text: "1"
+          - generic [ref=e471]: TOTAL
+          - generic [ref=e472]:
+            - generic [ref=e473]: ★
+            - text: "64"
+          - img [ref=e475]
+        - generic [ref=e478] [cursor=pointer]:
+          - generic [ref=e479]: "20"
+          - img "Michelle Lee" [ref=e480]
+          - generic [ref=e481]:
+            - generic [ref=e482]: Michelle Lee
+            - generic [ref=e483]: Business Analyst (BA.U12.D1.G2)
+          - generic [ref=e484]:
+            - generic [ref=e485]:
+              - img [ref=e487]
+              - text: "2"
+            - generic [ref=e489]:
+              - img [ref=e491]
+              - text: "1"
+            - generic [ref=e493]:
+              - img [ref=e495]
+              - text: "1"
+          - generic [ref=e497]: TOTAL
+          - generic [ref=e498]:
+            - generic [ref=e499]: ★
+            - text: "64"
+          - img [ref=e501]
+        - generic [ref=e504] [cursor=pointer]:
+          - generic [ref=e505]: "21"
+          - img "Brian Walsh" [ref=e506]
+          - generic [ref=e507]:
+            - generic [ref=e508]: Brian Walsh
+            - generic [ref=e509]: Systems Engineer (SYS.U13.D1.G1)
+          - generic [ref=e511]:
+            - img [ref=e513]
+            - text: "3"
+          - generic [ref=e515]: TOTAL
+          - generic [ref=e516]:
+            - generic [ref=e517]: ★
+            - text: "48"
+          - img [ref=e519]
+        - generic [ref=e522] [cursor=pointer]:
+          - generic [ref=e523]: "22"
+          - img "Sofia Andersson" [ref=e524]
+          - generic [ref=e525]:
+            - generic [ref=e526]: Sofia Andersson
+            - generic [ref=e527]: Release Manager (REL.U14.D1.G1)
+          - generic [ref=e528]:
+            - generic [ref=e529]:
+              - img [ref=e531]
+              - text: "1"
+            - generic [ref=e533]:
+              - img [ref=e535]
+              - text: "1"
+            - generic [ref=e537]:
+              - img [ref=e539]
+              - text: "1"
+          - generic [ref=e541]: TOTAL
+          - generic [ref=e542]:
+            - generic [ref=e543]: ★
+            - text: "48"
+          - img [ref=e545]
+        - generic [ref=e548] [cursor=pointer]:
+          - generic [ref=e549]: "23"
+          - img "Kevin Yamamoto" [ref=e550]
+          - generic [ref=e551]:
+            - generic [ref=e552]: Kevin Yamamoto
+            - generic [ref=e553]: QA Automation Engineer (QA.U2.T3)
+          - generic [ref=e555]:
+            - img [ref=e557]
+            - text: "2"
+          - generic [ref=e559]: TOTAL
+          - generic [ref=e560]:
+            - generic [ref=e561]: ★
+            - text: "32"
+          - img [ref=e563]
+        - generic [ref=e566] [cursor=pointer]:
+          - generic [ref=e567]: "24"
+          - img "Grace Liu" [ref=e568]
+          - generic [ref=e569]:
+            - generic [ref=e570]: Grace Liu
+            - generic [ref=e571]: Solutions Architect (ARC.U9.D2.SA)
+          - generic [ref=e572]:
+            - generic [ref=e573]:
+              - img [ref=e575]
+              - text: "1"
+            - generic [ref=e577]:
+              - img [ref=e579]
+              - text: "1"
+          - generic [ref=e581]: TOTAL
+          - generic [ref=e582]:
+            - generic [ref=e583]: ★
+            - text: "32"
+          - img [ref=e585]
+        - generic [ref=e588] [cursor=pointer]:
+          - generic [ref=e589]: "25"
+          - img "Nathan Wright" [ref=e590]
+          - generic [ref=e591]:
+            - generic [ref=e592]: Nathan Wright
+            - generic [ref=e593]: Platform Engineer (PLT.U15.D1.G1)
+          - generic [ref=e594]:
+            - generic [ref=e595]:
+              - img [ref=e597]
+              - text: "1"
+            - generic [ref=e599]:
+              - img [ref=e601]
+              - text: "1"
+          - generic [ref=e603]: TOTAL
+          - generic [ref=e604]:
+            - generic [ref=e605]: ★
+            - text: "24"
+          - img [ref=e607]
+        - generic [ref=e610] [cursor=pointer]:
+          - generic [ref=e611]: "26"
+          - img "Elena Volkov" [ref=e612]
+          - generic [ref=e613]:
+            - generic [ref=e614]: Elena Volkov
+            - generic [ref=e615]: Project Manager (PM.U5.D3.G2)
+          - generic [ref=e616]:
+            - generic [ref=e617]:
+              - img [ref=e619]
+              - text: "1"
+            - generic [ref=e621]:
+              - img [ref=e623]
+              - text: "1"
+          - generic [ref=e625]: TOTAL
+          - generic [ref=e626]:
+            - generic [ref=e627]: ★
+            - text: "16"
+          - img [ref=e629]
+        - generic [ref=e632] [cursor=pointer]:
+          - generic [ref=e633]: "27"
+          - img "Jason Clark" [ref=e634]
+          - generic [ref=e635]:
+            - generic [ref=e636]: Jason Clark
+            - generic [ref=e637]: Integration Developer (DEV.U1.D6.INT)
+          - generic [ref=e638]:
+            - generic [ref=e639]:
+              - img [ref=e641]
+              - text: "1"
+            - generic [ref=e643]:
+              - img [ref=e645]
+              - text: "1"
+          - generic [ref=e647]: TOTAL
+          - generic [ref=e648]:
+            - generic [ref=e649]: ★
+            - text: "16"
+          - img [ref=e651]
+        - generic [ref=e654] [cursor=pointer]:
+          - generic [ref=e655]: "28"
+          - img "Amara Okafor" [ref=e656]
+          - generic [ref=e657]:
+            - generic [ref=e658]: Amara Okafor
+            - generic [ref=e659]: Compliance Officer (COM.U16.D1.G1)
+          - generic [ref=e660]:
+            - generic [ref=e661]:
+              - img [ref=e663]
+              - text: "1"
+            - generic [ref=e665]:
+              - img [ref=e667]
+              - text: "1"
+          - generic [ref=e669]: TOTAL
+          - generic [ref=e670]:
+            - generic [ref=e671]: ★
+            - text: "16"
+          - img [ref=e673]
+        - generic [ref=e676] [cursor=pointer]:
+          - generic [ref=e677]: "29"
+          - img "Luke Henderson" [ref=e678]
+          - generic [ref=e679]:
+            - generic [ref=e680]: Luke Henderson
+            - generic [ref=e681]: Support Engineer (SUP.U17.D1.G1)
+          - generic [ref=e682]:
+            - generic [ref=e683]:
+              - img [ref=e685]
+              - text: "1"
+            - generic [ref=e687]:
+              - img [ref=e689]
+              - text: "1"
+          - generic [ref=e691]: TOTAL
+          - generic [ref=e692]:
+            - generic [ref=e693]: ★
+            - text: "16"
+          - img [ref=e695]
+        - generic [ref=e698] [cursor=pointer]:
+          - generic [ref=e699]: "30"
+          - img "Yuki Tanaka" [ref=e700]
+          - generic [ref=e701]:
+            - generic [ref=e702]: Yuki Tanaka
+            - generic [ref=e703]: Network Engineer (NET.U18.D1.G1)
+          - generic [ref=e705]:
+            - img [ref=e707]
+            - text: "1"
+          - generic [ref=e709]: TOTAL
+          - generic [ref=e710]:
+            - generic [ref=e711]: ★
+            - text: "8"
+          - img [ref=e713]
